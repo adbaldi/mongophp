@@ -9,5 +9,5 @@ mkdir /opt/app-root/php.d
 echo "extension=/opt/app-root/mongodb/modules/mongodb.so" >> /opt/app-root/php.d/mongodb.ini
 cd /opt/app-root/src/
 
-echo "doing the standard stuff stuff"
+echo "Running assemble script"
 /usr/libexec/s2i/assemble
